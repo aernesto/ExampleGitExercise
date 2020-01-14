@@ -1,12 +1,13 @@
 # ExampleGitExercise
-This repo shows how git and GitHub can address a specific minimalist use case. The goal is to simulate a minimal project development setup,
-in which sharing with 2 independent parties is needed.
+This repo shows how git and GitHub can address a specific minimalist use case. The goal is to simulate a minimal project development setup, in which sharing with 2 independent parties is needed.
 
-# MATLAB code development exercise
+**Note:** _I use MATLAB here, but the whole exercise is doable in any language. I encourage you to do it in your favorite programing language._
+
+# Code development exercise
 Try to perform the sequence of steps below without a version control system if you feel brave. 
 
 1. create a function myfunc that takes no argument and displays the number 38 to the screen.
-2. create a script called myscript.m that calls myfunc once.
+2. create a script called myscript that calls myfunc once.
 3. share the script and the function with collaborator 1.
 4. Enhance both myfunc and myscript so that:  
   - myfunc now takes a single integer as argument and displays it to the screen
@@ -16,6 +17,23 @@ Try to perform the sequence of steps below without a version control system if y
 7. collaborator 2 gets back to you and tells you that things look okay, except for the fact that myfunc really should subtract 2 from its argument before displaying the result to the screen. You implement the changes and share with them the latest files.
 8. etc.
 
+## Solution
 The present repo solves the problem above by:
 - assigning a specific branch to each collaboration
 - assigning annotated tags (release versions) to every commit that was shared
+
+# In a Nutshell
+Version-Control Systems like Git and their associated online platforms such as GitHub are essential because:
+1. It is easy to get Open Source code written by others
+2. It is easy to share code (open source or not) with others
+3. It is **great** to keep track of the history of your project
+
+# Resources
+- [High-Level Intro to GitHub](https://youtu.be/w3jLJU7DT5E)
+- [Configure git on your computer](https://help.github.com/en/github/getting-started-with-github/set-up-git)
+- Use a Graphical User Interface (GUI) for Git if you wish. One possibility is [GitHub Desktop](https://help.github.com/en/desktop), but there are [many more](https://www.thewindowsclub.com/git-gui-clients-for-windows).
+- A good (some people might say better) alternative to GitHub is [GitLab](https://about.gitlab.com/). It works in a very similar manner.
+- I find the [MATLAB resources on git](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) appalling, but there is still some important info there for MATLAB users.
+
+# Advice
+__**Use Git from day 1 on all your coding projects!!!!**__
