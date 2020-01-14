@@ -1,3 +1,3 @@
-function myfunc()
-  disp(38)
+function myfunc(int_to_display)
+  disp(int_to_display)
 end

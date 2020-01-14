@@ -1,2 +1,3 @@
 disp('some processing using myfunc')
-myfunc()
+myfunc(33)
+myfunc(34)
