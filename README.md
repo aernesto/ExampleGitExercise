@@ -19,9 +19,10 @@ Try to perform the sequence of steps below without a version control system if y
   - `myfunc` now takes a single integer as argument and displays it to the screen
   - `myscript` calls `myfunc` 5 consecutive times with successive arguments 1, 2, 3, 4, 5.
 5. you share the enhanced `myfunc` and `myscript` with collaborator 2.
-6. collaborator 1 gets back to you and tells you that `myfunc` should really take 1 integer as argument (just as the enhancement made) but `myscript` should call `myfunc` twice with successive args 33, 44. You bring the modifications and share the appropriate function and script with collaborator 1.
+6. collaborator 1 gets back to you and tells you that `myfunc` should really take 1 integer as argument (just as the enhancement made) but `myscript` should call `myfunc` twice with successive args 33, 34. You bring the modifications and share the appropriate function and script with collaborator 1.
 7. collaborator 2 gets back to you and tells you that things look okay, except for the fact that `myfunc` really should subtract 2 from its argument before displaying the result to the screen. You implement the changes and share with them the latest files.
-8. etc.
+8. At some big conference, you present a poster for which you used a slightly different version of the code, compared to what you last shared with collaborator 1. Namely, the script calls `myfunc` three times with arguments 66, 67, 87. You want to remember the exact version of the code used for this poster in case someone asks detailed questions about it.
+9. etc.
 
 ## Solution
 The present repo solves the problem above by:
