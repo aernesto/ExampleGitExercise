@@ -1,4 +1,10 @@
-# ExampleGitExercise
+# Three Big Reasons to Use Git 
+Version-Control Systems like Git and their associated online platforms such as GitHub are essential because:
+1. It is easy to get Open Source code written by others
+2. It is easy to share code (open source or not) with others
+3. It is **great** to keep track of the history of your project
+
+# This Repo
 This repo shows how git and GitHub can address a specific minimalist use case. The goal is to simulate a minimal project development setup, in which sharing with 2 independent parties is needed.
 
 **Note:** _I use MATLAB here, but the whole exercise is doable in any language. I encourage you to do it in your favorite programing language._
@@ -21,12 +27,6 @@ Try to perform the sequence of steps below without a version control system if y
 The present repo solves the problem above by:
 - assigning a specific branch to each collaboration
 - assigning annotated tags (release versions) to every commit that was shared
-
-# In a Nutshell
-Version-Control Systems like Git and their associated online platforms such as GitHub are essential because:
-1. It is easy to get Open Source code written by others
-2. It is easy to share code (open source or not) with others
-3. It is **great** to keep track of the history of your project
 
 # Resources
 - [High-Level Intro to GitHub](https://youtu.be/w3jLJU7DT5E)
