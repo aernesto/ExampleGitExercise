@@ -27,7 +27,7 @@ Try to perform the sequence of steps below without a version control system if y
 ## Solution
 The present repo solves the problem above by:
 - assigning a specific branch to each collaboration
-- assigning annotated tags (release versions) to every commit that was shared
+- assigning annotated tags (release versions) to every important commit (e.g. when sharing or for presentations)
 
 # Resources
 - [High-Level Intro to GitHub](https://youtu.be/w3jLJU7DT5E)
