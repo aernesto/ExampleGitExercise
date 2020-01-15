@@ -1,3 +1,4 @@
 disp('some processing using myfunc')
-myfunc(33)
-myfunc(34)
+for i = [66, 67, 87]
+  myfunc(i)
+end
