@@ -10,9 +10,9 @@ This repo shows how git and GitHub can address a specific minimalist use case. T
 **Note:** _I use MATLAB here, but the whole exercise is doable in any language. I encourage you to do it in your favorite programing language._
 
 # Code development exercise
-Try to perform the sequence of steps below without a version control system if you feel brave. 
+Try to perform the sequence of steps below: 
 
-1. create a function `myfunc` that takes no argument and displays the number 38 to the screen.
+1. create a function `myfunc` that takes no argument and displays the number 38 to the screen (or at the console).
 2. create a script called `myscript` that calls `myfunc` once.
 3. share the script and the function with collaborator 1.
 4. Enhance both `myfunc` and `myscript` so that:  
