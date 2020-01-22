@@ -34,7 +34,9 @@ The present repo solves the problem above by:
 - [Configure git on your computer](https://help.github.com/en/github/getting-started-with-github/set-up-git)
 - Use a Graphical User Interface (GUI) for Git if you wish. One possibility is [GitHub Desktop](https://help.github.com/en/desktop), but there are [many more](https://www.thewindowsclub.com/git-gui-clients-for-windows).
 - A good (some people might say better) alternative to GitHub is [GitLab](https://about.gitlab.com/). It works in a very similar manner.
+- This [Student Developer Pack](https://education.github.com/pack) is invaluable. 
 - I find the [MATLAB resources on git](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) appalling, but there is still some important info there for MATLAB users.
+
 
 # Advice
 __**Use Git from day 1 on all your coding projects!!!!**__
